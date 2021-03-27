@@ -33,6 +33,9 @@ form {
     max-width: 100%;
 }
 
+form h1 {
+    margin-top: 50px;
+}
 
 #email {
     display: block;
@@ -58,5 +61,15 @@ iframe {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.container-item {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: gray;
 }
