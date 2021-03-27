@@ -44,3 +44,9 @@ iframe {
     display: block;
     margin: 0% auto;
 }
+
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 30px;
+    }
+}
